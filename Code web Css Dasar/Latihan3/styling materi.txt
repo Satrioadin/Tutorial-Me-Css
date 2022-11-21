@@ -1,0 +1,24 @@
+materi css TEXT Styling
+
+				properti di dalam text styling
+
+COLOR = memberi warna pada tulisan (Bisa menggunakan bilangan Hexadecimal)
+	code Hexadecimal bisa di lihat di www.colorpicker.com
+
+TEXT-ALIGN= mengatur format paragraf/teks
+	Left,right,center,justify
+	
+TEXT-INDENT= memberi indentasi pada paragraf/teks
+	Px(pixel),%
+
+TEXT-DECORATION= mengatur dekorasi pada teks (Bisa di gunakan di code hyperlink)
+	None,underling,overline,line-through
+
+TEXT-TRANSFORM= mengubah jenis huruf menjadi huruf besar,kecil/kapital
+	None,Lowercase,Uppercase,Capitalize
+
+LATTER-SPACING= mengatur spasi antar huruf
+	normal,px(pixel)
+WORD-SPACING= mengatur spasi antar kata
+	normal,px(pixel)
+FONT-SIZE= mengatur besar/kecilnya huruf

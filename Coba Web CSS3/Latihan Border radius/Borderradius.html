@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        /* (border radius) berfungsi untuk menumpulkan sisi pada kotak yang kita buat*/
+        .border1 {
+            width: 300px;
+            height: 300px;
+            background-color: salmon;
+            border-radius: 150px;
+            text-align: center;
+            line-height: 300px;
+        }
+        /* jika kita hanya menginginkan sisi tertentu yang di tumpulkan,itu bisa menggunakan (border-top-right-radius)
+        seperti contoh di bawah dan juga bisa di pakai dengan penulisan yang singkat (border:ataskiri, atas kanan, bawah kanan, bawah kiri)*/
+        .border2 {
+            width: 300px;
+            height: 300px;
+            background-color: limegreen;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+        }
+        /*jika kita ingin menaruh image di dalam background color kita harus menambahkan (overflow:hidden;)
+        supaya image yang kita tampilkan berada di dalam backround color yang kita buat 
+        contoh ada di bawah*/
+        .border3 {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .border3 img {
+            width: 300px;
+            height: 300px;
+        } 
+    </style>
+</head>
+<body>
+    
+    <div class="border1">Hello World</div>
+    <div class="border2"> Hello World</div>
+    <div class="border3">
+        <img src="IMG-20201125-WA0030.jpg" >
+    </div>
+</body>
+</html>
