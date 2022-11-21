@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        div:hover {
+            box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, 0.15);
+            margin-top: 40px;
+        }
+        .satu {
+            /* box Shadow befungsi untuk menambahkan bayangan bada background-color. */
+            /* Properti pada Box Shadow (x-offset>, y-offset, blur, color) */
+            width: 300px;
+            height: 300px;
+            background-color: #39b54a;
+            margin: 50px auto;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+        }
+        .dua {
+            /* Spread untuk mengatur ukuran dari bayangan. spread ada di kolom ke 4 dari box-shadow*/
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+            margin: 50px auto;
+            box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, 0.75);
+            transition: .3s;
+        }
+        /* inset berfungsi untuk mengatur bayangan agar berada di dalam kotaknya */
+        .tiga {
+            width: 300px;
+            height: 300px;
+            background-color: #39b54a;
+            margin: 50px auto;
+            box-shadow: inset 0 0 15px 5px rgba(0,0,0,0.5);
+        }
+        /* kelebihan multiple shadow kita bisa memberikan lebih dari satu bayangan */
+        .empat {
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+            margin: 50px auto;
+            box-shadow: 5px 5px 5px rgba(255,0,0,.5), 
+            0 0 0 10px green,
+            0 0 0 15px yellow,
+            0 0 0 20px orange;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="satu"></div>
+<div class="dua"></div>
+<div class="tiga"></div>
+<div class="empat"></div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient</title>
+    <style>
+        .satu {
+            /* linaer Gradient adalah value yang kita bisa berikan di backround img */
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+            background-image: linear-gradient(red,#f0d606,green);
+        }
+        /* code di bawah untuk mengatur arah gradienya (to left, to top, to bottom, to right */
+        .dua {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+            background-image: linear-gradient(to left,red,green);
+        }
+        /* code di bawah untuk mengatur bobot pada gradasi warna */
+        .tiga {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+            background-image: linear-gradient(to right, red 63%, green 80%);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+</body>
+</html>
